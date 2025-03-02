@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-black h-screen w-full flex items-center justify-center">
+    <div class="h-86 w-56 bg-slate-800 p-4 rounded-lg">
+      <img class="rounded-lg mb-5 hover:scale-105" src="tele.jpg" alt="" />
+      <div>
+        <p class="text-gray-500">4.5 -USA</p>
+        <h1 class="text-white font-light">Classic Telephone</h1>
+        <p class="text-white font-semibold">100$</p>
+      </div>
+      <div class="flex justify-between items-center">
+      <div class="flex space-x-2 mt-2 ">
+        <div class="w-2 h-2 cursor-pointer bg-red-600 rounded-full"></div>
+        <div class="w-2 h-2  cursor-pointer bg-green-600 rounded-full"></div>
+        <div class="w-2 h-2 cursor-pointer bg-blue-700 rounded-full"></div>
+        <div class="w-2 h-2 cursor-pointer bg-yellow-600 rounded-full"></div>
+      </div>
+      <div>
+        <button class="bg-blue-400 py-.5 px-5 rounded-full font-semibold cursor-pointer text-white hover:bg-blue-600 ">ADD</button>
+      </div>
+    </div>
+  </body>
+</html>
